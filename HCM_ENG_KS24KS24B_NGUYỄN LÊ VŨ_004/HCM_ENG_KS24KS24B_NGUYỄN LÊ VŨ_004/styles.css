@@ -1,0 +1,250 @@
+*{
+    /* width: 1440px;
+     */
+}
+.main{
+   padding: 0px 20px;
+}
+.main .inner-wrap{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+}
+.main .inner-wrap  button{
+  padding: 10px 30px;
+  background-color: var(--bg-2);
+  font-size: 20px;
+  border-radius: 5px;
+}
+button{
+    color: aliceblue;
+}
+.main .inner-logo img{
+    width: 20px;
+    height: auto;
+}
+.main .inner-logo a{
+    display: flex;
+    align-items: center;
+}
+.main .inner-logo span{
+    font-size: 24px ;
+    color: var(--color-text);
+    margin-left: 10px;
+} 
+.main .body ul{
+    list-style: none;
+    margin: 0;
+    display: flex;
+}
+.main .body ul li a{
+    display: inline-block;
+    padding: 35px 20px;
+    color: var(--color-text);
+    font-size: 18px;
+}
+.main .body ul li a:hover{
+   background-color: aliceblue;
+}
+
+
+.m1{
+    background-image: url(./Banner.png);
+    background-position: 70% 10px;
+    padding: 199px 0;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+.m1 .inner-wrap{
+    position: relative;
+    width: 50%;
+}
+.m1 .inner-wrap .inner-socical ul{
+    list-style: none;
+    margin-top: 70px;
+    padding: 0;
+    display: flex;
+    margin-left: 0;
+
+}
+.m1 .inner-wrap .inner-socical ul li{
+    margin-right: 40px;
+    border: 2px solid rgb(11, 11, 11);
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 33;
+  
+}
+.m1 .inner-wrap .inner-socical ul li a{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height:30px;
+    width: 30px;
+    border-radius: 50px;
+   background-color: rgb(253, 253, 253);
+   color: var(--color-text);
+   font-size: 20px;
+   
+  
+
+}
+.m1 .inner-wrap .inner-socical ul li:hover{
+    background-color: rgb(21, 21, 22);
+}
+.m1 .inner-wrap button{
+    font-size: 20px;
+    padding: 10px 20px;
+    
+    background-color: var(--bg-2);
+}
+
+
+.m1 .inner-wrap .inner-title{
+    color: rgb(31, 45, 56);
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.m1 .inner-wrap .inner-title span{
+    font-weight: 800;
+}
+.m1 .inner-wrap .inner-desc{
+    color: rgb(17, 20, 21);
+    margin-bottom: 20px
+    
+}
+.m1 .button{
+    margin-right: 30px ;
+}
+
+
+@media (max-width: 768px) {
+    .main  {
+        padding: 10px;
+    }
+
+    .main  .inner-wrap .nav{
+        display: block;
+        font-size: 40px;
+        cursor: pointer;
+    }
+    .main .inner-menu ul {
+       display: none;
+    }
+    .main .inner-wrap  button{
+     display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    
+
+    .m1 {
+        padding: 700px 20px;
+       
+    }
+    .m1 .inner-wrap {
+        width: 100%;
+    }
+    .m1 .inner-wrap .inner-title {
+        font-size: 36px;
+    }
+}
+.m2{
+
+    padding: 100px 0 50px;
+    text-align: center;
+
+}
+.m2 p{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.m2 .inner-wrap{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 30px;
+    margin: auto;
+    margin-top: 10px;
+  
+}
+.m2 .inner-wrap .box {
+    width: calc(100%/5 - 30px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid rgb(11, 11, 11);
+    padding: 30px 50px;
+ 
+   
+}
+.m2 .inner-wrap .box i{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+   
+    font-size: 40px;
+    justify-content: center;
+}
+.h21 :hover{
+    background-color: #a07272;
+}
+
+@media (max-width: 768px) {
+    .m2 .inner-wrap {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 15px;
+    }
+    .m2 .inner-wrap .box {
+        width: 100%;
+        padding: 10px;
+    }
+}
+.m3{
+    height: 956px;
+    background-color: #000000;
+    position: relative;
+}
+.main2{
+   
+color: aliceblue;
+font-family: Sora;
+font-weight: 800;
+font-size: 48px;
+line-height: 56px;
+letter-spacing: -2%;
+
+    text-align: center;
+   
+}
+.text-word{
+color: aliceblue;
+}
+.heads{
+    margin: auto;
+    display: flex;
+    color: aliceblue;
+    width: 1120;
+height: 32;
+justify-content: space-between;
+
+}
+
+
+
+.footter{
+    background-color: #000000;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    justify-content: space-between; 
+}
